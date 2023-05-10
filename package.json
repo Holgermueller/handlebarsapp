@@ -1,0 +1,17 @@
+{
+  "name": "handlebarsapp",
+  "version": "1.0.0",
+  "description": "I've created this project to help me brush up on handlebars fundamentals.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Holger Mueller",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-handlebars": "^7.0.7",
+    "handlebars": "^4.7.7"
+  }
+}
