@@ -36,7 +36,7 @@ app.get("/", (req, res) => {
 });
 
 app.get("/about", (req, res) => {
-  res.render("about", { layout: "about" });
+  res.render("about", { layout: "index" });
 });
 
 app.listen(port, () => console.log(`App listening on port ${port} you all`));
