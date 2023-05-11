@@ -2,10 +2,36 @@ body,
 html {
   margin: 0;
   padding: 0;
+  font-family: sans-serif;
 }
 
 header {
   text-align: center;
+}
+
+nav {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  column-gap: 0.5rem;
+  flex-wrap: wrap;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  width: 75%;
+  margin: auto;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 1rem;
+  margin: 8px;
+  padding: 8px;
+}
+
+.container {
+  width: 75%;
+  margin: auto;
 }
 
 footer {
